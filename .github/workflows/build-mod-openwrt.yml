@@ -70,7 +70,7 @@ jobs:
 
     steps:
     - name: 检验结束  Checkout                          # 1.导入主分支
-      uses: actions/checkout@main
+      uses: actions/checkout@v3
 
     - name: 开始安装编译所需系统  Initialization environment                # 2.初始化环境
       env:
